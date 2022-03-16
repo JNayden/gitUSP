@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-void Add(int a, int b)
+void Minus(int a, int b)
 {
-	return a + b;
+	return a - b;
 }
 
 int main()
 {
-	Add(a, b);
+	Minus(a, b);
 	exit(0);
 }
